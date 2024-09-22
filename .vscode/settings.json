@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always",
+        "source.organizeImports": "always",
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "workbench.editor.customLabels.patterns": {
+        "**/app/**/page.tsx": "${dirname} - page",
+        "**/app/**/layout.tsx": "${dirname} - layout"
+    }
+}
